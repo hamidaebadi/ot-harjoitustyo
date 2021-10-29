@@ -1,0 +1,96 @@
+
+commit c9823cd2c968e8d384145947f29bdbd12515ed87
+Author: Hamid Aebadi <hamidebadi1996@yahoo.com>
+Date:   Fri Oct 29 08:52:10 2021 +0300
+
+    file1 delete and rename file 2
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 01bb2b5f14ce39d0cf9e54342ae30bc6225ee5ce
+Author: Hamid Aebadi <hamidebadi1996@yahoo.com>
+Date:   Fri Oct 29 08:44:31 2021 +0300
+
+    New folder with 3 files
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit cf781e269603940c23fff7c35bffdb5e955c0cc8
+Author: Hamid Aebadi <hamidebadi1996@yahoo.com>
+Date:   Fri Oct 29 08:34:41 2021 +0300
+
+    files modified
+
+ eka.txt    | 3 +++
+ kolmas.txt | 2 +-
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+commit c0c6039d7563578a0cf0c9712d7102a37f80481e
+Author: Hamid Aebadi <hamidebadi1996@yahoo.com>
+Date:   Fri Oct 29 08:31:23 2021 +0300
+
+    toinen.txt renamed to eka.txt
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 78feb31842424c50fa46d8749ccc49be4db1c6af
+Author: Hamid Aebadi <hamidebadi1996@yahoo.com>
+Date:   Fri Oct 29 08:28:32 2021 +0300
+
+    toinen tiedosto poistettu
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 7a33be7cbd48f9e088ed2da904c9eb261e8580d5
+Author: Hamid Aebadi <hamidebadi1996@yahoo.com>
+Date:   Fri Oct 29 08:23:56 2021 +0300
+
+    uusi hakemisto ja tiedosto
+
+ stuff/jokin.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 879666f95878def316d811c975a6d0e0fea5df5e
+Author: Hamid Aebadi <hamidebadi1996@yahoo.com>
+Date:   Fri Oct 29 08:21:37 2021 +0300
+
+    tiedostoihin lisätty tekstiä
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 57096268adcae8709680375ad260e1c5ed3d8674
+Author: Hamid Aebadi <hamidebadi1996@yahoo.com>
+Date:   Fri Oct 29 08:19:52 2021 +0300
+
+    uusi tiedosto luotu
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit eb431e502012ebc6ebeb080cf2519c6fdbf24daf
+Author: Hamid Aebadi <hamidebadi1996@yahoo.com>
+Date:   Thu Oct 28 16:18:37 2021 +0300
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit c3be8eb90c7865b4e587fab9e89666144f317fef
+Author: Hamid Aebadi <hamidebadi1996@yahoo.com>
+Date:   Thu Oct 28 16:11:57 2021 +0300
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
