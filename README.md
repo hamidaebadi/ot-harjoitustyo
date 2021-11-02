@@ -14,7 +14,7 @@ Aihe on *vapaa valintainen*
 * [komentorivi.txt](https://github.com/hamidaebadi/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
 
 
-###Linkit
+### Linkit
  * [Vaatimusmäärittely](https://github.com/hamidaebadi/ot-harjoitustyo/blob/master/documentation/vaatimusmaarittely.md)
 
  *[Työaikakirjanpito](https://github.com/hamidaebadi/ot-harjoitustyo/blob/master/documentation/tyoaikakirjanpito.md)
