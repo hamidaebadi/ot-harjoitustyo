@@ -5,16 +5,29 @@ sovellus, minkä tarkoituksena on soveltaa kurssilla **Ohjelmoinnin perusteet** 
 **Ohjelmoinnin jatkokurssin** opittuja asoita. 
 Aihe on *vapaa valintainen*
 
-### Tehtävät
-#### Viikko 1
+## Varastonhallintajärjestelmä
+Varastonhallintajärjestelmän avulla seurataan mitä tuotteita on ostettu ja lisätty varastoon, sekä
+mitä tuotteita on myyty/poistettu varastosta. Varastonhallintajärjestelmään kirjautuu sisään vain
+varaston ylläpitäjä.
 
-* [gitlog.txt](https://github.com/hamidaebadi/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
-
-
-* [komentorivi.txt](https://github.com/hamidaebadi/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
-
-
-### Linkit
+### Dokumentaatio
  * [Vaatimusmäärittely](https://github.com/hamidaebadi/ot-harjoitustyo/blob/master/documentation/vaatimusmaarittely.md)
-
  * [Työaikakirjanpito](https://github.com/hamidaebadi/ot-harjoitustyo/blob/master/documentation/tyoaikakirjanpito.md)
+
+
+### Asennus
+1. Asenna riippuvuudet komennolla:
+    poetry install
+
+2. Käynnistä sovellus komennolla:
+    poetry run invoke start
+
+### Komentorivitoiminnnot
+#### Ohjelman suorittaminen
+    poetry run invoke start
+
+#### Ohjelman Testaaminen
+    poetry run invoke test
+
+#### Ohjelman testikattavuus
+    peotry run invoke coverage-report

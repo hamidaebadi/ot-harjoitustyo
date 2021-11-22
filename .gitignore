@@ -1,6 +1,10 @@
+.vscode
 .DS_Store
-/laskarit/viikko2/unicafe/.pytest_cache
-/laskarit/viikko2/unicafe/src/__pycache__/
-/laskarit/viikko2/unicafe/src/tests/__pycache__/
-/laskarit/viikko2/unicafe/.coverage
-/laskarit/viikko2/unicafe/htmlcov
+.coverage
+.pytest_cache
+htmlcov
+__pycache__
+*.py[cod]
+*$py.class
+data/database.sqlite
+data/test-database.sqlite

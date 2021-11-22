@@ -8,7 +8,7 @@
  - *Lisätiedot*: Projektin alussa yritetään suunnitella ja toteuttaa persuverion
 		 käyttöön, minkä jälkeen toteutetaan jatkokehityksen tavoitteita. 
 #### Sovelluksen Käyttötarkoitus
-	Tämän sovelluksen pääkäyttötarkoitus on halinnoida varastotilan tietoa. Esimerkiksi 
+  Tämän sovelluksen pääkäyttötarkoitus on halinnoida varastotilan tietoa. Esimerkiksi 
 	varastossa olevien tuotteiden ylläpito / päivittäminen, uusien tuotteiden rekisteröinti
 	varastoon lisättäessä sekä varastosta pois vietyjen tuotteiden merkitseminen poistetuksi
 	ja varastotilan päivittäminen jatkoylläpitoa varten.
