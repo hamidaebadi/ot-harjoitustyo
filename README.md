@@ -17,10 +17,10 @@ varaston ylläpitäjä.
 
 ### Asennus
 - Asenna riippuvuudet komennolla:
-    poetry install
+      poetry install
 
 - Käynnistä sovellus komennolla:
-    poetry run invoke start
+      poetry run invoke start
 
 ### Komentorivitoiminnnot
 #### Ohjelman suorittaminen
