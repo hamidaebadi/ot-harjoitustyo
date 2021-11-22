@@ -23,11 +23,11 @@ varaston ylläpitäjä.
      poetry run invoke start
 
 ### Komentorivitoiminnnot
-#### Ohjelman suorittaminen
+###### Ohjelman suorittaminen
     poetry run invoke start
 
-#### Ohjelman Testaaminen
+###### Ohjelman Testaaminen
     poetry run invoke test
 
-#### Ohjelman testikattavuus
+###### Ohjelman testikattavuus
     peotry run invoke coverage-report
