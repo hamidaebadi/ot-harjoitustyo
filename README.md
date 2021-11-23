@@ -11,6 +11,7 @@ mitä tuotteita on myyty/poistettu varastosta. Varastonhallintajärjestelmään 
 varaston ylläpitäjä.
 
 ### Dokumentaatio
+ * [Käyttöohje](https://github.com/hamidaebadi/ot-harjoitustyo/blob/master/documentation/kayttoohje.md)
  * [Vaatimusmäärittely](https://github.com/hamidaebadi/ot-harjoitustyo/blob/master/documentation/vaatimusmaarittely.md)
  * [Työaikakirjanpito](https://github.com/hamidaebadi/ot-harjoitustyo/blob/master/documentation/tyoaikakirjanpito.md)
 
