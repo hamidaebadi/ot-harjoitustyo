@@ -22,6 +22,7 @@ varaston ylläpitäjä.
 ###### Käynnistä sovellus komennolla:
      poetry run invoke start
 
+
 ### Komentorivitoiminnnot
 ###### Ohjelman suorittaminen
     poetry run invoke start
