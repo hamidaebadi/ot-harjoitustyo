@@ -1,5 +1,4 @@
 from tkinter import Tk, ttk, Frame, CENTER
-from services import login_services
 class LoginView:
     def __init__(self, root, handle_workstation):
         self._root = root
