@@ -1,6 +1,6 @@
-from config import DATABASENAME
 import os
 import sqlite3
+from config import DATABASENAME
 
 dirname = os.path.dirname(__file__)
 

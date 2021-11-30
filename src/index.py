@@ -1,6 +1,5 @@
-from views import main_view
 from tkinter import Tk
-    
+from views import main_view
 # starting program from here
 window = Tk()
 window.title("Varastonhallintajärjestelmä")

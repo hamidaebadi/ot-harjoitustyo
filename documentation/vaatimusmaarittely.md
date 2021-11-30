@@ -12,6 +12,7 @@
 	varastossa olevien tuotteiden ylläpito / päivittäminen, uusien tuotteiden rekisteröinti
 	varastoon lisättäessä sekä varastosta pois vietyjen tuotteiden merkitseminen poistetuksi
 	ja varastotilan päivittäminen jatkoylläpitoa varten.
+  Tässä tapauksessa varasto säilyttää elektroniikkalaitteita
 
 #### Sovelluksen eri käyttäjäroolit
 	Perusveriossa on vain yhdenlainen käyttäjä, jolla on ylläpitäjäoikeus. Hänellä on
@@ -21,23 +22,23 @@
 ##### Funktionaaliset toiminnallisuudet	
 - Varastonylläpitäjän on oltava kirjautunut sisään, jotta pääsisi hyödyntämään
  sovelluksen ominaisuuksia.
-  - Ylläpitäjä kirjautuu sisään antamalla käyttäjätunnusta ja salasanaa
-  - Jos kirjautuminen onnistuu, ylläpitäjä näkee sovelluksen päänäykymän, muuten
+  - [x] Ylläpitäjä kirjautuu sisään antamalla käyttäjätunnusta ja salasanaa
+  - [x] Jos kirjautuminen onnistuu, ylläpitäjä näkee sovelluksen päänäykymän, muuten
 	häne näkee virheilmoitusta virheellisistä annetuista tiedoista.
 
-- Kirjautunut varatonylläpitäjä näkee päänäkymässä kaikki varaston hyllypaikat
-  - Jokaisella hyllyllä on oma tunniste
-  - Jokaiseen hyllyyn kuuluu joukkoja tuotteita
-- Ylläpitäjä voi lisätä uusia tuotteita tiettyyn hyllyyn
+- Kirjautunut varastonylläpitäjä näkee päänäkymässä kaikki varaston hyllypaikat
+  - [x] Jokaisella hyllyllä on oma tunniste/kategoria/nimi
+  - [x] Jokaiseen hyllyyn kuuluu joukkoja tuotteita
+- [x] Ylläpitäjä voi lisätä uusia tuotteita tiettyyn hyllyyn
 - Ylläpitäjä voi poistaa/myydä tuotteita tietystä hyllystä
 - Ylläpitäjä voi etsia tiettyä tuotteetta koko varastosta
 
 ##### Ei-funktionaaliset toiminnallisuudet
-- Sovelluksen tulee toimia OSX ja Linux-käyttöjärjestelmissä
-- Sovelluksen data talletetaan sqlite-tietokantaan
-- Sovelluksen tulee toimia myös oppilaitoksen koneella
-- Sovelluksen pääohjelmointikieli on Python ^3.8
-- Sovellukselle on suunniteltava graafinen käyttöliittymä
+- [x] Sovelluksen tulee toimia OSX ja Linux-käyttöjärjestelmissä
+- [x] Sovelluksen data talletetaan sqlite-tietokantaan
+- [x] Sovelluksen tulee toimia myös oppilaitoksen koneella
+- [x] Sovelluksen pääohjelmointikieli on Python ^3.8
+- [x] Sovellukselle on suunniteltava graafinen käyttöliittymä
 
 #### Jatkokehityksen ideoita
 - Järjestelmään lisätään automaattinen raportointi varaston tilataphtumista viikon aikana
