@@ -35,7 +35,6 @@ class UI:
         else:
             show_message(self._root, "Käyttäjätunnus tai salasana on väärin", "ERROR")
 
-
     def _handle_logout(self):
         self._show_login_view()
 

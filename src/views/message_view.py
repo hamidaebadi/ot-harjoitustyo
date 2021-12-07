@@ -26,7 +26,7 @@ class MessageView:
         if type == "ERROR":
             self._message_color = 'red'
         elif type == "WARNING":
-            self._message_color = 'yellow'
+            self._message_color = 'orange'
         elif type == "SUCCESS":
             self._message_color = 'green'
 

@@ -11,7 +11,10 @@ Päivämäärä | Käytetyt tunnit | Mitä tein
 27.11.2021 |       1         | Tietokannan suunnittelu ja toteutus SQL:llä
 28.11.2021 |       1         | Luokka/pakkauskaavion suunnttelu ja toteutus
 29.11.2021 |       2         | Tuotteen lisäyspalveluiden suunnittelu ja toteutus
-30.11.2021 |       4         | Koodin laadun parantaminen, Projektin hakemistorakenteen järjestäminen,
-                                testien lisäys, pylintin asentaminen
+30.11.2021 |       4         | Koodin laadun parantaminen, Projektin hakemistorakenteen järjestäminen, testien lisäys, pylintin asentaminen
+02.12.2021 |       1         | StateView:n korjaaminen ja viimeistely: Skrollaaminen toimii 
+04.12.2021 |       2         | Käyttöliittymän suunnittelu ja toteutus tuotteen etsimistä varten
+05.12.2021 |       2         | Tuotteen etsiminen toiminnallisuuden toteuttaminen
+06.12.2021 |       4         | Lisää testejä, käyttöohjeen päivittäminen, sekvenssikaavion piirtäminen, releasin tekeminen
 
-Yhteensä: 22 tuntia
+Yhteensä: 29 tuntia

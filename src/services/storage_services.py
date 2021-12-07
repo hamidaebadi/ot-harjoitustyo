@@ -11,3 +11,9 @@ class Storage:
 
     def get_stored_products(self, category):
         return self._product_repository.find_products_by_category(category)
+
+    def search_product(self, value):
+        result = self._product_repository.find_product(value)
+        if not result:
+            return False
+        return result

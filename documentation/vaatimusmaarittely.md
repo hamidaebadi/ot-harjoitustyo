@@ -31,7 +31,7 @@
   - [x] Jokaiseen hyllyyn kuuluu joukkoja tuotteita
 - [x] Ylläpitäjä voi lisätä uusia tuotteita tiettyyn hyllyyn
 - Ylläpitäjä voi poistaa/myydä tuotteita tietystä hyllystä
-- Ylläpitäjä voi etsia tiettyä tuotteetta koko varastosta
+- [x] Ylläpitäjä voi etsia tiettyä tuotteetta koko varastosta
 
 ##### Ei-funktionaaliset toiminnallisuudet
 - [x] Sovelluksen tulee toimia OSX ja Linux-käyttöjärjestelmissä

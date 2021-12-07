@@ -37,3 +37,6 @@ varaston ylläpitäjä.
 
 ###### Ohjelman testikattavuus
     peotry run invoke coverage-report
+
+###### Ohjelman koodin ladunarviointi Pylintin avulla
+    poetry run invoke lint

@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import ttk, Tk, Frame
+from tkinter import ttk, Tk, Frame, Scrollbar
 from views.scrollable_frame_view import ScrollableFrame
 from views.table_view import Table
 from services.storage_services import Storage
@@ -14,7 +14,7 @@ class StateView:
         self._initialize()
     
     def _initialize(self):
-        self._notebook = ttk.Notebook(self._root, height=750, width=800)
+        self._notebook = ttk.Notebook(self._root)
         #create tabs
         self._create_tabs()
 
@@ -24,13 +24,14 @@ class StateView:
         if tabs:
             for tab in tabs:
                 frame_tab = ScrollableFrame(self._notebook)
-                data_table = Table(frame_tab)
+                data_table = Table(frame_tab.frame)
                 data_table.set_headers(headers)
                 items = self._storage_services.get_stored_products(tab.cage_name)
                 data_table.create_table(len(items), 3, items)
                 data_table.pack()
-                frame_tab.pack(fill='both', expand=True)
+                frame_tab.pack()
                 self._notebook.add(frame_tab, text=tab.cage_name)
+                
 
     def grid(self, row, col):
-        self._notebook.grid(row=row, column=col, rowspan=3, padx=10)
+        self._notebook.grid(row=row, column=col, rowspan=10, padx=10)

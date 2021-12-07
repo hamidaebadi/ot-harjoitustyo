@@ -32,23 +32,23 @@ class ImportView:
         self._import_frame.destroy()
 
     def grid(self, row, col):
-        self._import_frame.grid(row=row, column=col, pady=50, sticky=tk.W)
+        self._import_frame.grid(row=row, column=col)
 
     def _initialize(self):
         self.__initialize_all_categories()
-        self._import_frame = ttk.Frame(self._root, style="ExportFrame.TFrame")
-        self._lbl_title = ttk.Label(self._import_frame, text="Lisää tuote")
-        self._lbl_product_name = ttk.Label(self._import_frame, text="Tuotteen Nimi: ")
-        self._ent_product_name = ttk.Entry(self._import_frame)
-        self._lbl_product_amount = ttk.Label(self._import_frame, text="Lukumäärä: ")
-        self._lbl_product_QR = ttk.Label(self._import_frame, text="QR-code: ")
-        self._ent_product_QR = ttk.Entry(self._import_frame)
-        self._ent_product_amount = ttk.Entry(self._import_frame)
-        self._lbl_list_box = ttk.Label(self._import_frame, text="Valitse kategoria: ")
+        self._import_frame = tk.Frame(self._root, highlightbackground="gray", highlightthickness=5, bg="#f2f2f2")
+        self._lbl_title = tk.Label(self._import_frame, text="Lisää tuote")
+        self._lbl_product_name = tk.Label(self._import_frame, text="Tuotteen Nimi: ")
+        self._ent_product_name = tk.Entry(self._import_frame)
+        self._lbl_product_amount = tk.Label(self._import_frame, text="Lukumäärä: ")
+        self._lbl_product_QR = tk.Label(self._import_frame, text="QR-code: ")
+        self._ent_product_QR = tk.Entry(self._import_frame)
+        self._ent_product_amount = tk.Entry(self._import_frame)
+        self._lbl_list_box = tk.Label(self._import_frame, text="Valitse kategoria: ")
         self._variable = StringVar()
         self._variable.set(self._categories[0])
         self._list_box = OptionMenu(self._import_frame, self._variable, *self._categories, command=self._get_optionMenu_value)
-        self._btn_add_product = ttk.Button(master=self._import_frame, text="Lisää varastoon", command=self._handle_add_product_btn)
+        self._btn_add_product = tk.Button(master=self._import_frame, text="Lisää varastoon", command=self._handle_add_product_btn)
 
         #place widgets
         self._lbl_title.grid(row=0, column=1, padx=5, pady=5, columnspan=2, sticky=tk.W)

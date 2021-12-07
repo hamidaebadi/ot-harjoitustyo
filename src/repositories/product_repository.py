@@ -14,6 +14,14 @@ class ProductRepository:
         rows = cursor.fetchall()
         return list(map(get_product_by_row, rows))
 
+    def find_product(self, value):
+        cursor = self._db_connection.cursor()
+        cursor.execute("SELECT * FROM products WHERE product_name=? OR product_QR=?", (value, value))
+        row = cursor.fetchone()
+        if not row:
+            return False
+        return get_product_by_row(row)
+
     def add_new_product(self, product=None):
         cursor = self._db_connection.cursor()
         cursor.execute("INSERT INTO products VALUES (?, ?, ?, ?)",
