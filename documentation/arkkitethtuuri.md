@@ -1,5 +1,5 @@
 ## Arkkitehtuuri
-### Rakenne
+## Rakenne
 
 Ohjelman rakenne noudattaa MVC-arkkitehtuuria. projektin juuressa
 Model-hakemisto kuvaa sovelluksessa olevia tietokohtia. Sovelluksessa
@@ -12,16 +12,16 @@ koodista.
 
 
 
-#### Tietojen pysyvätallennus
+## Tietojen pysyvätallennus
 Sovellus käyttää tietojen pysyvätallennukseen SQLite tietokantaa.
 Tietokantaa alustetaan sopivilla tiedoilla ohjelman käynnistäessä.
 Tietojen tallennuksesta vastaa pakkaus repositories luokat CageRepository,
 ProductRepository ja UserRepository.
 
 
-#### Päätoiminnallisuudet
+## Päätoiminnallisuudet
 Kuvataan sovelluksen toimintalogiikka muutaman päätoiminnallisuuden osalta sekvenssikaaviona.
 
-    ## Käyttäjän kirjautuminen
-    
-    <img width="926" alt="skvenssi-login" src="https://user-images.githubusercontent.com/65080068/145084071-f0a3577a-45bf-4e38-9643-97653bae087d.png">
+  ## Käyttäjän kirjautuminen
+ 
+ <img width="926" alt="skvenssi-login" src="https://user-images.githubusercontent.com/65080068/145084071-f0a3577a-45bf-4e38-9643-97653bae087d.png">
