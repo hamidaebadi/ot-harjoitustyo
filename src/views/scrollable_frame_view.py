@@ -17,9 +17,9 @@ class ScrollableFrame(ttk.Frame):
         self.canvas.create_window((0,0), window=self.frame, anchor="nw",
                                   tags="self.frame")
 
-        self.frame.bind("<Configure>", self.onFrameConfigure)
+        self.frame.bind("<Configure>", self.on_frame_configure)
 
 
-    def onFrameConfigure(self, event):
+    def on_frame_configure(self, event):
         '''Reset the scroll region to encompass the inner frame'''
         self.canvas.configure(scrollregion=self.canvas.bbox("all"))

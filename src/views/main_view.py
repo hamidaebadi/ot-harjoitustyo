@@ -28,9 +28,9 @@ class UI:
          self._current_view.pack()
 
     def _handle_login(self, username, password):
-        loginSession = LoginServices()
-        loggedIn = loginSession.login(username, password)
-        if loggedIn:
+        login_session = LoginServices()
+        logged_in = login_session.login(username, password)
+        if logged_in:
             self._show_workstation_view()
         else:
             show_message(self._root, "Käyttäjätunnus tai salasana on väärin", "ERROR")
