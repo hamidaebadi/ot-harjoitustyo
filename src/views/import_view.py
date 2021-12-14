@@ -6,10 +6,11 @@ from services.import_services import ImportServices
 from services.storage_services import Storage
 
 class ImportView:
-    def __init__(self, root):
+    def __init__(self, root, state_view_obj):
         self._root = root
         self._storage = Storage()
         self._import_frame = None
+        self._state_view_obj = state_view_obj
         self._lbl_title = None
         self._lbl_product_name = None
         self._lbl_product_amount = None
@@ -84,9 +85,10 @@ class ImportView:
             result = save_product.save_product(name, category, QR_code, quantity)
             if result:
                 self._erase_iputs()
-                show_message(self._root, "Tuote lisätty! Kirjaudu sisään uudelleen, jotta näkisit muutokset", "SUCCESS")
-             
-        
+                show_message(self._import_frame, "Tuote lisätty!", "SUCCESS")
+                self._state_view_obj.update_view()
+                self._state_view_obj.grid(1, 2)
+    
 
     def _get_optionMenu_value(self, choice):
         choice = self._variable.get()

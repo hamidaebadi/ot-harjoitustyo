@@ -1,6 +1,6 @@
 class User:
     """
-    Class User defines users' attributes
+    Class User defines user object
 
     Attributes:
         username: string, user identified by this username

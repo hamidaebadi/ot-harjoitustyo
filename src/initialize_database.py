@@ -46,10 +46,7 @@ def create_cages_table(connection):
 def add_cages(connection):
     cages = [
         ("Puhelimet", 3000),
-        ("kodinkoneet", 5000),
-        ("Tietokoneet", 1500),
-        ("Pienkoneet", 1000),
-        ("Pelit ja viihde", 1000)
+        ("kodinkoneet", 5000)
     ]
     cursor = connection.cursor()
     cursor.executemany("INSERT INTO cages VALUES (?, ?)", cages)

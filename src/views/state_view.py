@@ -19,6 +19,7 @@ class StateView:
         self._create_tabs()
 
     def _create_tabs(self):
+
         tabs = self._storage_services.get_cages()
         headers = ["Tuotteen Nimi", "Lukumäärä", "QR-koodi"]
         if tabs:
@@ -35,3 +36,7 @@ class StateView:
 
     def grid(self, row, col):
         self._notebook.grid(row=row, column=col, rowspan=10, padx=10)
+
+    def update_view(self):
+        self._notebook.destroy()
+        self._initialize()

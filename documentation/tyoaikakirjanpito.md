@@ -16,5 +16,7 @@ Päivämäärä | Käytetyt tunnit | Mitä tein
 04.12.2021 |       2         | Käyttöliittymän suunnittelu ja toteutus tuotteen etsimistä varten
 05.12.2021 |       2         | Tuotteen etsiminen toiminnallisuuden toteuttaminen
 06.12.2021 |       4         | Lisää testejä, käyttöohjeen päivittäminen, sekvenssikaavion piirtäminen, releasin tekeminen
+12.12.2021 |       3         | Lisää testejä, käyttöohjeen päivittäminen, sekvenssikaavion piirtäminen, releasing tekeminen
+13.12.2021 |       2         | Lisätyn tuotteen näyttäminen ilman uudelleen kirjautumista, koodin refaktorointi
 
-Yhteensä: 29 tuntia
+Yhteensä: 34 tuntia

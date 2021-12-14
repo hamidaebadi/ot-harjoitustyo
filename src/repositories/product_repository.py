@@ -12,7 +12,8 @@ class ProductRepository:
         cursor = self._db_connection.cursor()
         cursor.execute("SELECT * FROM products WHERE product_category=?", (category, ))
         rows = cursor.fetchall()
-        return list(map(get_product_by_row, rows))
+        
+        return list(map(self.__get_product_by_row, rows))
 
     def find_product(self, value):
         cursor = self._db_connection.cursor()
@@ -20,7 +21,8 @@ class ProductRepository:
         row = cursor.fetchone()
         if not row:
             return False
-        return get_product_by_row(row)
+        
+        return self.__get_product_by_row(row)
 
     def add_new_product(self, product=None):
         cursor = self._db_connection.cursor()
@@ -31,7 +33,10 @@ class ProductRepository:
         product.product_quantity))
 
         self._db_connection.commit()
-
         return True
+
+    def __get_product_by_row(self, row):
+        return Product(row['product_name'], row['product_category'], row['product_QR'], row['product_quantity'])
+
 
 product_repositories = ProductRepository(get_database_connection())

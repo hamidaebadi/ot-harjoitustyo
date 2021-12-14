@@ -49,4 +49,5 @@
   - Filteröinti hinnan perusteella
   - Filteröinti ajan perusteella
     - Tietyn ajanjakson aikana lisättyjen/poistettujen tuotteiden tiedot
+- Uusien kategorien lisääminen
 
