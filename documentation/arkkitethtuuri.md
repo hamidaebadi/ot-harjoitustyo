@@ -24,5 +24,17 @@ ProductRepository ja UserRepository.
 Kuvataan sovelluksen toimintalogiikka muutaman päätoiminnallisuuden osalta sekvenssikaaviona.
 
   ## Käyttäjän kirjautuminen
- 
+
+  Sovlluksen käynnistyessä, käyttäjän on kirjauduttuva sisään sovellukseen.
+  Kun käyttäjä syöttää tunnukset ja painaa *kirjaudu siään* nappia, luokka LoginView käyttää
+  LoginServices-luokasta muodostetun olion metodi login(), jolle annetaan tunnukset. Metodissa login 
+  käytetään luokan UserRepository:n metodia verify_user(), jolle välitetään käyttäjän antamat tunnukset.
+  Jos välitetyt tiedot ovat oikein, metodi verify_user() palauttaa True metodille login, joka sekin
+  palauttaa True sitä kutsuvalle muuttujalle.
+  Jos kaikki on kunnossa, suoritetaan luokan UI metodia _show_workstation_view(), joka näyttää
+  sovelluksen päänäkymää.
+
  <img width="926" alt="skvenssi-login" src="https://user-images.githubusercontent.com/65080068/145084071-f0a3577a-45bf-4e38-9643-97653bae087d.png">
+
+ ## Uuden tuotteen lisääminen
+ 

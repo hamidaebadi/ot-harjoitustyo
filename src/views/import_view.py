@@ -85,9 +85,9 @@ class ImportView:
             result = save_product.save_product(name, category, QR_code, quantity)
             if result:
                 self._erase_iputs()
-                show_message(self._import_frame, "Tuote lisätty!", "SUCCESS")
                 self._state_view_obj.update_view()
                 self._state_view_obj.grid(1, 2)
+                show_message(self._import_frame, "Tuote lisätty!", "SUCCESS")
     
 
     def _get_optionMenu_value(self, choice):

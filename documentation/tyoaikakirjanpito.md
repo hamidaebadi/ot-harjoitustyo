@@ -18,5 +18,6 @@ Päivämäärä | Käytetyt tunnit | Mitä tein
 06.12.2021 |       4         | Lisää testejä, käyttöohjeen päivittäminen, sekvenssikaavion piirtäminen, releasin tekeminen
 12.12.2021 |       3         | Lisää testejä, käyttöohjeen päivittäminen, sekvenssikaavion piirtäminen, releasing tekeminen
 13.12.2021 |       2         | Lisätyn tuotteen näyttäminen ilman uudelleen kirjautumista, koodin refaktorointi
+14.12.2021 |       2         | Koodin dokumentointi DocStringin avulla, Käyttöohjeen muokkaaminen
 
-Yhteensä: 34 tuntia
+Yhteensä: 36 tuntia
