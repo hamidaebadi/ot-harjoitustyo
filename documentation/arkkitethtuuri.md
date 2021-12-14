@@ -8,7 +8,8 @@ huolehtii tietokonnan kanssa kommunikoivasta koodista. Services-pakkaus
 vastaa sovelluslogiikasta ja views-pakkaus huolehtii käyttöliittymän
 koodista.
 
-<img width="1038" alt="Screenshot 2021-11-30 at 20 59 45" src="https://user-images.githubusercontent.com/65080068/144111478-62d31fd6-8ea7-4355-83a1-1952a8a09888.png">
+<img width="1202" alt="classDiagram" src="https://user-images.githubusercontent.com/65080068/146021551-9ae1a45b-3879-4bb6-b880-fb6ad5802213.png">
+
 
 
 
