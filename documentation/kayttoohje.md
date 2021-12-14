@@ -7,11 +7,11 @@
    <img width="610" alt="login_view" src="https://user-images.githubusercontent.com/65080068/146022399-1e736efc-bb07-4338-a046-3eb9dd161620.png">
 
 Kirjaudu sisään seuraavilla tiedoilla:
-    - Käyttäjätunnus: adminTest
-    - Salasana: 1234
+    * Käyttäjätunnus: adminTest
+    * Salasana: 1234
 
 ### Tuotteen lisääminen
-   Tuotteet saadaan lisättyä kohdasta **lisää tuote **
+   Tuotteet saadaan lisättyä kohdasta ** lisää tuote **
    Määrittele kaikille sopiva arvo
    paina lopuksi **lisää varastoon** nappi.
    Muutokset näkyvät heti, kun tiedot saadaan talletettua tietokannalle.
@@ -21,7 +21,7 @@ Kirjaudu sisään seuraavilla tiedoilla:
     
 
 ### Tuotteen etsiminen
-  Voi etsiä tiettyä tuotetta varastosta kohdasta ** Etsi Tuote **
+  Voi etsiä tiettyä tuotetta varastosta kohdasta ** Etsi Tuote ** .
   Syötä tuotteen nimi tai QR-koodi
   lopuksi paina ** Löydä tuote ** nappia
     
