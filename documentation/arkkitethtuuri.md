@@ -38,3 +38,4 @@ Kuvataan sovelluksen toimintalogiikka muutaman päätoiminnallisuuden osalta sek
 
  ## Uuden tuotteen lisääminen
  
+ <img width="1250" alt="product_addition_sequence_diagram" src="https://user-images.githubusercontent.com/65080068/146032300-08968a91-ce35-4fe1-bd0d-3c79add4a422.png">
