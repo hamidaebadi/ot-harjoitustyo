@@ -5,8 +5,9 @@ from helper_functions import *
 from services.import_services import ImportServices
 
 class AddCategoryView:
-    def __init__(self, root, state_view_obj):
+    def __init__(self, root, state_view_obj, import_view_obf):
         self._state_view_obj = state_view_obj
+        self._import_view_obj = import_view_obf
         self._import_services = ImportServices()
         self._root = root
         self._add_category_frame = None
@@ -42,6 +43,8 @@ class AddCategoryView:
                 self._ent_add_category.delete(0, 'end')
                 show_message(self._add_category_frame, "Uusi kategoria lisätty!", "SUCCESS")
                 self._state_view_obj.update_view()
+                self._import_view_obj.update_view()
+                self._import_view_obj.grid(1, 1)
                 self._state_view_obj.grid(1, 2)
             else:
                 show_message(self._add_category_frame, "Uuden kategorian lisääminen ei onnistu!", "WARNING")

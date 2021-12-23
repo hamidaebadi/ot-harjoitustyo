@@ -34,7 +34,7 @@ class WorkstationView:
         self._state_view = StateView(self._work_frame)
         self._import_view = ImportView(self._work_frame, self._state_view)
         self._search_view = SearchView(self._work_frame)
-        self._add_category_view = AddCategoryView(self._work_frame, self._state_view)
+        self._add_category_view = AddCategoryView(self._work_frame, self._state_view, self._import_view)
         self._btn_logout = ttk.Button(
             master=self._work_frame,
              text="Logout",

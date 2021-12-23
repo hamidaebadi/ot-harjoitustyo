@@ -2,9 +2,6 @@ from repositories.user_repository import user_repository
 
 class LoginServices:
     """LoginServices class takes control over login operation
-    
-    Attributes:
-        _user_login: object of class UserRepository, give access to database operation
     """
 
     def __init__(self):
@@ -28,3 +25,4 @@ class LoginServices:
         """
         user_verified = self._user_login.verify_user(username, password)
         return user_verified
+        

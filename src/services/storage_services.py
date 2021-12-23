@@ -59,3 +59,4 @@ class Storage:
         if not result:
             return False
         return result
+        

@@ -29,7 +29,7 @@ class ImportView:
         self._initialize()
 
  
-    def destroy(self):
+    def __destroy(self):
         self._import_frame.destroy()
 
     def grid(self, row, col):
@@ -105,3 +105,9 @@ class ImportView:
             if InputValidator.is_entry_empty(entry):
                 return True
         return False
+
+
+    def update_view(self):
+        self._categories = []
+        self.__destroy()
+        self._initialize()
