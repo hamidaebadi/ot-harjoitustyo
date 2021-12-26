@@ -12,6 +12,7 @@ sen jälkeen alustaa tietokantaa komennolla:
 
 ### Ohjelman käynnistys
  ohjelma voidaan nyt käynnistää komennolla:
+ 
       poetry run invoke start
 
 ### Sisään kirjautuminen
