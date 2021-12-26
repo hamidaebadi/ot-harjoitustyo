@@ -20,5 +20,6 @@ Päivämäärä | Käytetyt tunnit | Mitä tein
 13.12.2021 |       2         | Lisätyn tuotteen näyttäminen ilman uudelleen kirjautumista, koodin refaktorointi
 14.12.2021 |       2         | Koodin dokumentointi DocStringin avulla, Käyttöohjeen muokkaaminen
 23.12.2021 |       2         | Koodin rafktorointi, Luokkien ja metodien dokumentointi
+26.12.2021 |       2         | Testien dokumentointi, releasin tekeminen, käyttöohjeen viimeistely
 
-Yhteensä: 38 tuntia
+Yhteensä: 40 tuntia
