@@ -2,8 +2,8 @@
  Lataa projektin viimeisimmän releasin lähdekoodi täältä.
 
 ### Ohjelman Asennus
- Ennen ohjelman käynnistämistä asenna kaikki riippuvuudet komennolla:
-     poetry install
+Ennen ohjelman käynnistämistä asenna kaikki riippuvuudet komennolla:
+    poetry install
 
 sen jälkeen alustaa tietokantaa komennolla:
     peotry run invoke build
