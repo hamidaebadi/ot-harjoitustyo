@@ -15,6 +15,7 @@ varaston ylläpitäjä.
  * [Vaatimusmäärittely](https://github.com/hamidaebadi/ot-harjoitustyo/blob/master/documentation/vaatimusmaarittely.md)
  * [Työaikakirjanpito](https://github.com/hamidaebadi/ot-harjoitustyo/blob/master/documentation/tyoaikakirjanpito.md)
  * [Arkkitehtuurikuvaus](https://github.com/hamidaebadi/ot-harjoitustyo/blob/master/documentation/arkkitethtuuri.md)
+ * [testaus](https://github.com/hamidaebadi/ot-harjoitustyo/blob/master/documentation/testaus.md)
  * [releases](https://github.com/hamidaebadi/ot-harjoitustyo/releases)
 
 
