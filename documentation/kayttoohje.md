@@ -1,5 +1,5 @@
 ## Käyttöohje
-Lataa projektin viimeisimmän releasin lähdekoodi täältä.
+Lataa projektin viimeisimmän releasin lähdekoodi [täältä](https://github.com/hamidaebadi/ot-harjoitustyo/releases/tag/loppupalautus) kohdasta Assets valitsemalla Source Code.
 
 #### Ohjelman Asennus
 Ennen ohjelman käynnistämistä asenna kaikki riippuvuudet komennolla:
