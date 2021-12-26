@@ -3,14 +3,14 @@
 
 ### Ohjelman Asennus
  Ennen ohjelman käynnistämistä asenna kaikki riippuvuudet komennolla:
-   poetry install
+     poetry install
 
 sen jälkeen alustaa tietokantaa komennolla:
-   peotry run invoke build
+    peotry run invoke build
 
 ### Ohjelman käynnistys
 ohjelma voidaan nyt käynnistää komennolla:
-   poetry run invoke start
+    poetry run invoke start
 
 ### Sisään kirjautuminen
   Sovelluksen käynnistyessä login-sivu tulee ilmi.
