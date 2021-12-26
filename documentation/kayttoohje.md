@@ -1,5 +1,16 @@
+## Käyttöohje
+ Lataa projektin viimeisimmän releasin lähdekoodi täältä.
+
+### Ohjelman Asennus
+ Ennen ohjelman käynnistämistä asenna kaikki riippuvuudet komennolla:
+   poetry install
+
+sen jälkeen alustaa tietokantaa komennolla:
+   peotry run invoke build
+
 ### Ohjelman käynnistys
-    poetry run invoke start
+ohjelma voidaan nyt käynnistää komennolla:
+   poetry run invoke start
 
 ### Sisään kirjautuminen
   Sovelluksen käynnistyessä login-sivu tulee ilmi.
